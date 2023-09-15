@@ -15,7 +15,6 @@ function customRender(reactElement,container){
     }
     container.appendChild(domElement)
 }
-const anotherUser='Tea'
 const reactElement={
     type:'a',
     props:{
