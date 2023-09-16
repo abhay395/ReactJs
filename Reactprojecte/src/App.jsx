@@ -1,4 +1,4 @@
-import Chai from "./chai"
+
 
 function App() {
   const username='Chai aur code'
