@@ -10,7 +10,7 @@ function InputBox({
   AmountDisable=false,
   currencyDisable=false,
   className = "",
-}) {
+}){
   const AmountInputId=useId()
 
   return (
