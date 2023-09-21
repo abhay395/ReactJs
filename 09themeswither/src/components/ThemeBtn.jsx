@@ -6,10 +6,10 @@ export default function ThemeBtn() {
     const onChangeBtn=(e)=>{
         const darkModestatus=e.currentTarget.checked
         if(darkModestatus){
-         darkTheme()
+        darkTheme()
         }
         else{
-            lightThem()
+        lightThem()
         }
     }
     return (
