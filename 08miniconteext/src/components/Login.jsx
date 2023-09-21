@@ -3,7 +3,7 @@ import UserContext from '../context/UserContext'
 
 function Login() {
     const handleSubmit=(e)=>{
-    e.preventDefault()
+    // e.preventDefault()
     setUser({username,Password})
     }
     const [username,setusername]=useState('')
@@ -12,8 +12,7 @@ function Login() {
     
     return (
        <div>
-        <h2>LogeIn</h2>
-        <form action="">
+        
         <input type="text" value={username} onChange={(e)=>{
             setusername(e.target.value)
         }} placeholder='username'  />
@@ -21,7 +20,7 @@ function Login() {
             setPassword(e.target.value)
         }} placeholder='Password'  />
         <button onClick={handleSubmit}>Submit</button>
-        </form>
+        
        </div> 
     )
 }
