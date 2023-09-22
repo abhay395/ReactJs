@@ -18,7 +18,7 @@ export default function ThemeBtn() {
                 type="checkbox"
                 value=''
                 onChange={onChangeBtn}
-                checked={themeMode==='dark'}
+                // checked={themeMode==='dark'}
                 
                 className="sr-only peer"
             />
