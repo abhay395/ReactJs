@@ -12,7 +12,9 @@ function useCurrencyInfo(currency){
         })
         console.log(data);
     },[currency])
-    return data
+
+
+    return data;
 }
 
 export default useCurrencyInfo;
