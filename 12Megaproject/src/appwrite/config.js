@@ -109,7 +109,6 @@ export class Service{
             conf.appwritBucketId,fileId
         )
      }
-
 }
 const service=new Service()
-export default Service;
+export default service;
